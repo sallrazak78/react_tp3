@@ -3,7 +3,7 @@ import Rainbow from '../hoc/Rainbow'
 const Contact=(props)=>{
     setTimeout(()=>{
         props.history.push('/about')
-    },20000)
+    },200000)
     return(
         <div className="container">
             <h1 className="center">Contact</h1>
